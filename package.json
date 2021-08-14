@@ -1,0 +1,50 @@
+{
+  "name": "care",
+  "version": "0.0.1",
+  "description": "",
+  "productName": "Care n Help",
+  "author": "n/a",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.ts,.vue ./",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "@vee-validate/rules": "^4.1.20",
+    "core-js": "^3.6.5",
+    "json2csv": "^5.0.6",
+    "papaparse": "^5.3.1",
+    "quasar": "^2.0.2",
+    "vee-validate": "^4.4.1",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.14.7",
+    "@quasar/app": "^3.0.2",
+    "@types/json2csv": "^5.0.3",
+    "@types/node": "^10.17.15",
+    "@types/papaparse": "^5.2.6",
+    "@typescript-eslint/eslint-plugin": "^4.28.3",
+    "@typescript-eslint/parser": "^4.28.3",
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^7.13.0"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 12.22.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
